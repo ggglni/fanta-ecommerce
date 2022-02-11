@@ -1,0 +1,164 @@
+body {
+    font-family: "Quicksand", sans-serif;
+    margin: 0px;
+    background-color: rgb(66, 70, 66);
+}
+
+header{
+    position: static;
+    background: rgb(25, 26, 25);
+    padding: 10px;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+#logo a{
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 2px black;
+}
+
+#associazioni ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header li{
+    color: white;
+    margin: 0px 10px;  
+}
+
+header li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+header li a:hover{
+    text-decoration: none;
+    color: rgba(214, 11, 170, 0.7);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main{
+    margin: 20px auto 20px auto;
+}
+
+main h3{
+    text-align: center;
+    color:white;
+}
+
+main ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto 10px auto;
+    padding-inline-start: 0px;
+}
+
+.sfida {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+    background-color: rgb(211, 209, 201);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 50px;
+
+}
+
+.sfida img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid grey;
+    border-radius: 5px;
+}
+
+.sfida h2{
+    margin: 20px auto 10px auto;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sfida h3{
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sfida p{
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button{
+    background-color: rgb(16, 214, 59);
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+
+main a{
+    display:flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    color: white;
+}
+
+main a:hover{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(62, 1, 65);
+    
+}
+
+.bottone{
+        background-color: rgb(158, 16, 214);
+        border-radius: 10px;
+        margin: 10px 10px;
+        padding: 10px 0px;
+        text-align: center;   
+        padding: 20px 30px;
+        font-size: 20px;
+    }
+
+
+#associazioni p{
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+

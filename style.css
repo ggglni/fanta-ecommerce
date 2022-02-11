@@ -10,6 +10,13 @@ header{
     padding: 10px;
 }
 
+h1{
+    color: white;
+    text-align: center;
+    margin: 30px auto 10px auto;
+
+}
+
 
 #container{
     display: flex;
@@ -150,6 +157,30 @@ main a:hover{
         padding: 20px 30px;
         font-size: 20px;
     }
+
+#associazioni ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto 10px auto;
+    padding-inline-start: 0px;
+}
+
+#associazioni li{
+    text-align: center;
+    padding: 0px auto;
+    margin: 5px auto;
+    color: white;
+}
+
+#associazioni img{
+    border: 2px solid grey;
+    height: 130px;
+    width: auto;
+}
 
 
 

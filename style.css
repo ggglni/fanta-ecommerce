@@ -95,26 +95,26 @@ main ul{
     width: 300px;
     height: 200px;
     object-fit: cover;
-    border: 5px solid grey;
     border-radius: 5px;
 }
 
 .sfida h2{
-    margin: 20px auto 10px auto;
+    margin: 10px auto 0px auto;
     font-weight: bold;
     text-transform: uppercase;
+    
 }
 
 .sfida h3{
-    margin: 10px auto;
+    margin: 0px auto;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .sfida p{
-    margin: 10px auto;
+    margin: 0px auto;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .button{

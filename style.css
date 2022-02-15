@@ -7,13 +7,13 @@ body {
 header{
     position: static;
     background: rgb(25, 26, 25);
-    padding: 10px;
+    padding: 1rem;
 }
 
 h1{
     color: white;
     text-align: center;
-    margin: 30px auto 10px auto;
+    margin: 1.5rem auto 1rem auto;
 
 }
 
@@ -27,10 +27,10 @@ h1{
 }
 
 #logo a{
-    padding: 10px;
+    padding: 1.5rem;
     font-family: "Oleo Script", sans-serif;
     color: white;
-    font-size: 40px;
+    font-size: 2.3rem;
     text-decoration: none;
     text-transform: lowercase;
     text-shadow: 1px 1px 2px black;
@@ -50,13 +50,13 @@ header ul {
 
 header li{
     color: white;
-    margin: 0px 10px;  
+    margin: 0px 1rem;  
 }
 
 header li a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 10px 10px;
 }
 
@@ -64,11 +64,11 @@ header li a:hover{
     text-decoration: none;
     color: rgba(214, 11, 170, 0.7);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 main{
-    margin: 20px auto 20px auto;
+    margin: 1.25rem auto 1.25rem auto;
 }
 
 main h3{
@@ -90,23 +90,23 @@ main ul{
 .sfida {
     display: flex;
     flex-direction: column;
-    border: 2px solid grey;
+    border: 0.2rem solid grey;
     background-color: rgb(211, 209, 201);
-    border-radius: 10px;
+    border-radius: 0.8rem;
     text-align: center;
-    margin: 10px 50px;
+    margin: 0.2rem 2rem;
 
 }
 
 .sfida img{
-    width: 300px;
-    height: 200px;
+    width: 20rem;
+    height: 15rem;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 0.3rem;
 }
 
 .sfida h2{
-    margin: 10px auto 0px auto;
+    margin: 0.2rem auto 0px auto;
     font-weight: bold;
     text-transform: uppercase;
     
@@ -115,20 +115,20 @@ main ul{
 .sfida h3{
     margin: 0px auto;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .sfida p{
     margin: 0px auto;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .button{
     background-color: rgb(16, 214, 59);
-    border-radius: 10px;
-    margin: 10px 10px;
-    padding: 10px 0px;
+    border-radius: 0.3rem;
+    margin: 1rem 2rem;
+    padding: 1rem 1rem;
     text-align: center;
 }
 
@@ -150,12 +150,12 @@ main a:hover{
 
 .bottone{
         background-color: rgb(158, 16, 214);
-        border-radius: 10px;
-        margin: 10px 10px;
-        padding: 10px 0px;
+        border-radius: 0.3rem;
+        margin: 1rem 2rem;
+        padding: 1rem 1rem;
         text-align: center;   
-        padding: 20px 30px;
-        font-size: 20px;
+        padding: 1.5rem 2rem;
+        font-size: 1.3rem;
     }
 
 #associazioni ul{
@@ -165,21 +165,21 @@ main a:hover{
     list-style: none;
     justify-content: space-around;
     align-items: center;
-    margin: 10px auto 10px auto;
+    margin: 1rem auto 1rem auto;
     padding-inline-start: 0px;
 }
 
 #associazioni li{
     text-align: center;
     padding: 0px auto;
-    margin: 5px auto;
+    margin: 0.5rem auto;
     color: white;
 }
 
 #associazioni img{
-    border: 2px solid grey;
-    height: 130px;
-    width: auto;
+    border: 0.2rem solid grey;
+    height: 7rem;
+    width: 100%;
 }
 
 

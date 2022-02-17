@@ -38,6 +38,9 @@ h1{
 .menu-button{
     width: 3rem;
     height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
@@ -193,12 +196,63 @@ main a:hover{
     width: 100%;
 }
 
+#side-drawer{
+    width:100%;
+    height: 100%;
+    background: rgb(25, 26, 25);
+    position: fixed;
+    top: 0px;
+    display: none;
+}
+
+#side-drawer:target {
+    display: block;
+    left: 0px;
+}
+
+#side-drawer header{
+    position: static;
+    background: rgb(25, 26, 25);
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#side-drawer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 4rem 1rem;
+}
+
+#side-drawer ul li a{
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+    color: white;
+    margin: 3rem 1rem;
+      
+}
+
+#side-drawer ul li a:hover{
+    text-decoration: none;
+    color: rgba(214, 11, 170, 0.7);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
 @media (max-width: 48rem){
     h1{
         font-size: 1.5rem;
     }
 
-    header ul {
+    header div ul {
         display:none;
     }
 }
@@ -206,6 +260,12 @@ main a:hover{
 @media (max-width: 30rem){
     #logo a{
         font-size: 1.8rem;
+    }
+}
+
+@media (min-width:48rem){
+    .menu-button{
+        display: none;
     }
 }
 
